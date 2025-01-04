@@ -16,6 +16,7 @@ int main(int argc, char const *argv[])
     }
     while (!stk.empty())
     {
+        //remember before printing top or pop you must check whether the stack is empty or not
         cout<<stk.top()<<" ";
         stk.pop();
     }cout<<endl;
